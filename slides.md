@@ -1,4 +1,4 @@
-# Test d'acceptation
+# Introduction aux tests d'acceptation
 ### (ou recette)
 
 vvv
@@ -36,13 +36,13 @@ Feature: Register
 
 @javascript
 Scenario: Find the register page
-  When  I visit "https://guillaumecabanel.github.io/app/"
+  When  I visit "https://nantesrb.github.io/testing_with_cucumber_demo_app/"
     And I follow the link "I want to register!"
 
   Then  I should be on "https://www.meetup.com/Nantes-rb/"
 ```
 
-👉 Test [this awesome app](https://guillaumecabanel.github.io/app/) !
+👉 Test [this awesome app](https://nantesrb.github.io/testing_with_cucumber_demo_app/) !
 
 vvv
 
