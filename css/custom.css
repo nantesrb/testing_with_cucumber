@@ -2,6 +2,10 @@ img{
   width: 120px;
   border: none !important;
 }
+img.big{
+  width: 70%;
+  border: none !important;
+}
 
 blockquote {
   text-align: left;
